@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  background-color: hsl(237, 49%, 15%);
+}
+
+
+.box{
+  width: 50rem;
+  height: 39rem;
+  padding: 1rem;
+}
+
+.header{
+  margin-left: 8rem;
+  width: 35rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px   solid hsl(217, 16%, 45%);
+  border-radius: 1rem;
+}
+
+.score{
+  padding: 10px;
+  background-color: white;height: 5rem;
+  width: 5rem;
+  border-radius: 5px;
+  text-align: center;
+  color: blue;
+}
+
+.triangle{
+  margin-left: 15rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+
+.weapons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+
+}
+
+
+
+
+.rock{
+  border: 1rem solid hsl(349, 71%, 52%);
+  padding: 3.5rem;
+  border-radius: 100px;
+  margin-bottom: 16rem;
+  margin-left: -17.5rem;
+  margin-top: 30rem;
+}
+
+.paper{
+  border: 1rem solid hsl(230, 89%, 62%);
+    padding: 3.5rem;
+    border-radius: 100px;
+    margin-top: -10rem;
+
+
+    
+  
+}
+
+
+.scissor{
+  border: 1rem solid hsl(39, 89%, 49%);
+    padding: 3.5rem;
+    border-radius: 100px;
+    margin-top: -13rem;
+    margin-right: 18rem;
+}
+ 
+.rules{
+  text-align: end;
+}
+.rule{
+  padding: .5rem;
+  width:5rem;
+}
+
+.rule:hover{
+  background-color: chartreuse;
+
+}
+
+
+
+
