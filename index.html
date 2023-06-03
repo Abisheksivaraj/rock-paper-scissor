@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <link rel="stylesheet" href="./style.css">
-  
+
   <title> Rock, Paper, Scissors</title>
-  
+
 </head>
+
 <body>
   <div class="box">
     <div class="header">
@@ -18,9 +21,11 @@
         <img src="images/logo.svg" alt="" class="logo">
       </div>
       <div class="score">score</div>
-    </div>
-    <section class="triangle">
-      <img src="./images/bg-triangle.svg" alt="">
+    </div><br><br>
+    <div class="triangle">
+      <div class="triangle-image">
+        <img src="./images/bg-triangle.svg" alt="triangle-image">
+      </div>
       <div class="weapons">
         <button class="rock">
           Rock
@@ -32,14 +37,23 @@
           paper
         </button>
       </div>
-      </section>
-      <div class="rules">
+      
+  </div>
+    <div class="rules">
         <button class="rule"><a href="http://127.0.0.1:5501/index.html#">Rules</a></button>
+      </div>
+      <div class="result-container">
+        <!-- <p class="result-text user-result">Your Choice:   <span class="result">Rock</span>
+        </p> 
+        <p class="result-text comp-result">comp Choice:  <span class="result">Scissors</span>
+        </p> -->
+        <p class="game-result">You won</p>
       </div>
   </div>
 
 
-  
+
   <script src="./script.js"></script>
 </body>
+
 </html>
