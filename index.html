@@ -20,36 +20,64 @@
       <div class="img">
         <img src="images/logo.svg" alt="" class="logo">
       </div>
-      <div class="score">score</div>
+      <div class="score-one">COMPUTER <br> <span class="num-one">0</span></div>
+      <div class="score-two">YOU  <br>   <span class="number"> 0</span></div>
     </div><br><br>
     <div class="triangle">
       <div class="triangle-image">
         <img src="./images/bg-triangle.svg" alt="triangle-image">
       </div>
       <div class="weapons">
-        <button class="rock">
-          Rock
+        <button class="rock"
+        onclick="playGame('rock')">
+          <img src="images/icon-rock.svg" alt="" class="stone">
         </button>
-        <button class="scissor">
-          scissor
+        <button class="scissor"
+        onclick="playGame('scissors')">
+          <img src="images/icon-scissors.svg" alt="" class="scissors">
         </button> 
-        <button class="paper">
-          paper
+        <button class="paper"
+        onclick="playGame('paper')">
+          <img src="images/icon-paper.svg" alt="" class="paperr">
         </button>
       </div>
       
   </div>
     <div class="rules">
-        <button class="rule"><a href="http://127.0.0.1:5501/index.html#">Rules</a></button>
+        <button class="rule"><a >Rules</a></button>
       </div>
+
       <div class="result-container">
-        <!-- <p class="result-text user-result">Your Choice:   <span class="result">Rock</span>
+        <p class="result-text user-result">Your Choice:   <span class="result" id="userResultDisplay">Rock</span>
         </p> 
-        <p class="result-text comp-result">comp Choice:  <span class="result">Scissors</span>
-        </p> -->
-        <p class="game-result">You won</p>
+        <p class="result-text comp-result">comp Choice:  <span class="result" id="computerResultDisplay">Scissors</span>
+        </p>
       </div>
-  </div>
+      
+      <div class="game-result" id="game-result">
+        <div class="won">
+          <img src="images/won.gif" class="won-won"></img>
+        </div>
+        <div class="lost">
+          <img src="./images/lost.gif" class="lost-gif"></img>
+        </div>
+        <div class="play">
+          <button class="play-again" onclick="playAgain()">Play <br> again</button>
+        </div>
+        <!-- <div class="game-rules">
+          <div class="img">
+            <img src="images/image-rules.svg" alt="">
+          </div>
+          <div class="closee">
+            <button class="close" onclick="close()">
+              <img src="images/icon-close.svg" alt="" class="close-button">
+            </button>
+          </div> -->
+          </div>
+          
+        
+        </div>
+      </div>
 
 
 
