@@ -24,7 +24,6 @@ body {
 }
 
 .header {
-  /* margin-left: 8rem; */
   margin: 0 auto;
   width: 35rem;
   padding: 1rem;
@@ -83,12 +82,7 @@ body {
   width: 35rem;
   margin: 5rem auto 0rem;
   position: relative;
-  /* height: 25rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center; */
-}
+  }
 
 .triangle-image {
   width: 21rem;
@@ -175,7 +169,6 @@ body {
 .result-container {
   color: aliceblue;
   width: 15rem;
-  /* text-align: start; */
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -201,7 +194,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* display: none; */
+ 
 }
 
 .won {
@@ -224,10 +217,10 @@ body {
   justify-content: center;
   padding: 1rem;
   border: 5px solid cornflowerblue;
-  border-radius: 2rem;
+  border-radius: 1rem;
   font-weight: 300;
   height: 4rem;
-  width: 4rem;
+  width: 8rem;
   display: none; 
   background-color: black;
   color: white;
@@ -238,7 +231,7 @@ body {
   cursor: pointer;
 }
 
-/* .game-rules{
+.game-rules{
   background-color: rgb(5, 11, 43);
   height: 30rem; 
   width: 30rem;
@@ -249,16 +242,11 @@ body {
   border: 10px solid rgb(73, 72, 72);
   border-radius: 1rem;
   gap: 2rem;
-  display: n;
+  
   
   
 }
 
 .img{
-  margin-top: 8.5rem;
+  margin-top: 1rem;
 }
-
-.close{
-  margin-top: -3rem;
-  
-}  */
